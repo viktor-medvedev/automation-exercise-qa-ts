@@ -4,7 +4,7 @@ Playwright Test and TypeScript framework for UI quality checks against [Automati
 
 ## Requirements
 
-- Node.js 20 or later
+- Node.js 20.19 or later
 - npm
 
 ## Setup
@@ -21,6 +21,10 @@ npm test                 # Run the Chromium suite
 npm run test:headed       # Run with a visible browser
 npm run test:ui           # Open Playwright UI mode
 npm run test:report       # Open the last HTML report
+npm run lint              # Lint the project
+npm run lint:fix          # Fix automatically fixable lint issues
+npm run format            # Format project files with Prettier
+npm run format:check      # Check formatting without changing files
 npm run typecheck         # Type-check the project
 ```
 
